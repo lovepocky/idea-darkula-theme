@@ -179,6 +179,16 @@
  '(slime-repl-input-face ((t (:inherit 'default :weight bold))))
  '(slime-repl-output-face ((t (:foreground "cyan1"))))
  '(slime-repl-prompt-face ((t (:foreground "#007f00"))))
+
+;;;;; show-paren
+     `(show-paren-match ((,class (:background ,green-bg-s))))
+     `(show-paren-mismatch ((,class (:background ,red-bg-s))))
+
+;;;;; smartparens
+     `(sp-pair-overlay-face ((,class (:background ,highlight :foreground nil))))
+     `(sp-show-pair-match-face ((,class (:foreground ,mat :inherit bold :underline t))))
+
+ 
  )
 
 
